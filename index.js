@@ -19,8 +19,8 @@ const getPathname = function(options) {
         return option[0] !== '-';
     })
 
-    if (index) {
-        return options.splice(index, 1)[0];
+    if (index !== false) {
+        return options.splice(0,1)[0];
     }
 
     return;
