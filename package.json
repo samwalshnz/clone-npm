@@ -1,5 +1,5 @@
 {
-  "name": "npm-clone",
+  "name": "clone-npm",
   "version": "0.1.0",
   "description": "Git clone an npm repository",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "clone": "node index.js"
   },
   "bin": {
-    "npm-clone": "bin/clone.js"
+    "clone-npm": "bin/clone.js"
   },
   "author": "Sam Walsh",
   "license": "MIT",
