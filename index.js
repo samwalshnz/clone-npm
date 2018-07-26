@@ -29,8 +29,8 @@ const getPathname = function(options) {
 const clone = function(repoUrl) {
     const options = getOptions();
     const pathname = getPathname(options);
-
-    const cloning = git().clone(repoUrl, pathname, options.unshift('--progress'));
+    options.unshift('--progress')
+    const cloning = git().clone(repoUrl, pathname, options);
 
     stdout(cloning);
 }
