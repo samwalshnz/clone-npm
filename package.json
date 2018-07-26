@@ -7,6 +7,9 @@
     "patch-release": "npm version patch && npm publish && git push --follow-tags",
     "clone": "node index.js"
   },
+  "bin": {
+    "npm-clone": "bin/clone.js"
+  },
   "author": "Sam Walsh",
   "license": "MIT",
   "dependencies": {
