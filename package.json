@@ -1,0 +1,16 @@
+{
+  "name": "npm-clone",
+  "version": "0.1.0",
+  "description": "Git clone an npm repository",
+  "main": "index.js",
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "clone": "node index.js"
+  },
+  "author": "Sam Walsh",
+  "license": "MIT",
+  "dependencies": {
+    "package-json": "^5.0.0",
+    "simple-git": "^1.96.0"
+  }
+}
