@@ -15,5 +15,9 @@
   "dependencies": {
     "package-json": "^5.0.0",
     "simple-git": "^1.96.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samwalshnz/clone-npm"
   }
 }
