@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install npm-clone`
+`npm install -g npm-clone`
 
 ## Usage
 
