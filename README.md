@@ -2,8 +2,8 @@
 
 ## Installation
 
-`npm install -g npm-clone`
+`npm install -g clone-npm`
 
 ## Usage
 
-`npm-clone [npm-package-name]` (e.g. `npm-clone react`)
+`clone-npm [npm-package-name]` (e.g. `clone-npm react`)
