@@ -1,4 +1,4 @@
-# npm-clone
+# clone-npm
 
 ## Installation
 
